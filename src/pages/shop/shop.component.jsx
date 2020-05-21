@@ -21,13 +21,19 @@ class ShopPage extends Component {
     const { updateCollections } = this.props;
     const collectionRef = firestore.collection("collections");
 
-    this.unsubscribeFromSnapshot = collectionRef.onSnapshot(
-      async (snapshot) => {
-        const collectionsMap = convertCollectionSnapshotToMap(snapshot);
-        updateCollections(collectionsMap);
-        this.setState({ loading: false });
-      }
-    );
+    // -----> REST API approach
+    // fetch(
+    //   `https://firestore.googleapis.com/v1/projects/crwn-shop-3a030/databases/(default)/documents/collections`
+    // )
+    //   .then((response) => response.json())
+    //   .then((collections) => console.log(collections));
+
+    // -----> promise chain style
+    collectionRef.get().then((snapshot) => {
+      const collectionsMap = convertCollectionSnapshotToMap(snapshot);
+      updateCollections(collectionsMap);
+      this.setState({ loading: false });
+    });
   }
 
   render() {
