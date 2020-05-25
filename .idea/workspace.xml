@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777eac56-fbae-483d-aafc-f6699e210e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/iulia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/iulia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,9 @@
       <workItem from="1589965867623" duration="1821000" />
       <workItem from="1590122027302" duration="7057000" />
       <workItem from="1590131666162" duration="453000" />
-      <workItem from="1590132131949" duration="319000" />
+      <workItem from="1590132131949" duration="1029000" />
+      <workItem from="1590207600728" duration="610000" />
+      <workItem from="1590379454565" duration="2750000" />
     </task>
     <task id="LOCAL-00001" summary="adding util function to upload collection to database">
       <created>1589954913554</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590128393357</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding redux saga">
+      <created>1590134933691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590134933691</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +157,8 @@
     <MESSAGE value="linking app to firebase db" />
     <MESSAGE value="connecting db to redux" />
     <MESSAGE value="converting to container pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="converting to container pattern" />
+    <MESSAGE value="adding redux saga" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding redux saga" />
   </component>
   <component name="WindowStateProjectService">
     <state x="921" y="129" key="CommitChangelistDialog2" timestamp="1589965056681">
@@ -164,18 +174,18 @@
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590132273297" />
     <state x="326" y="98" key="SettingsEditor/0.23.1792.1061@0.23.1792.1061" timestamp="1589966736750" />
-    <state x="724" y="149" key="Vcs.Push.Dialog.v2" timestamp="1590128395863">
+    <state x="724" y="149" key="Vcs.Push.Dialog.v2" timestamp="1590134938942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="724" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590128395863" />
+    <state x="724" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590134938942" />
     <state x="1045" y="186" width="598" height="735" key="find.popup" timestamp="1589962981058">
       <screen x="0" y="23" width="1792" height="1061" />
     </state>
     <state x="1045" y="186" width="598" height="735" key="find.popup/0.23.1792.1061@0.23.1792.1061" timestamp="1589962981058" />
-    <state x="810" y="190" key="run.anything.popup" timestamp="1590127482415">
+    <state x="810" y="190" key="run.anything.popup" timestamp="1590207605631">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="810" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590127482415" />
+    <state x="810" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590207605631" />
     <state x="817" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1590131452861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
