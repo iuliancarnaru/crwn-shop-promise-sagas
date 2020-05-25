@@ -65,9 +65,9 @@ export const convertCollectionSnapshotToMap = (collectionsSnapshot) => {
   });
 
   return transformedCollection.reduce((accumulator, collection) => {
-    accumulator[collection.title.toLowerCase()] = collection
-    return accumulator
-  },{})
+    accumulator[collection.title.toLowerCase()] = collection;
+    return accumulator;
+  }, {});
 };
 
 // Initialize Firebase
@@ -78,8 +78,8 @@ export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
 // Setting up Google Auth
-const provider = new firebase.auth.GoogleAuthProvider();
-provider.setCustomParameters({ prompt: "select_account" });
-export const signinWithGoogle = () => auth.signInWithPopup(provider);
+export const googleProvider = new firebase.auth.GoogleAuthProvider();
+googleProvider.setCustomParameters({ prompt: "select_account" });
+export const signinWithGoogle = () => auth.signInWithPopup(googleProvider);
 
 export default firebase;
