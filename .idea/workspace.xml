@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777eac56-fbae-483d-aafc-f6699e210e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
@@ -103,7 +98,7 @@
       <workItem from="1590132131949" duration="1029000" />
       <workItem from="1590207600728" duration="610000" />
       <workItem from="1590379454565" duration="11842000" />
-      <workItem from="1590473220263" duration="1124000" />
+      <workItem from="1590473220263" duration="2742000" />
     </task>
     <task id="LOCAL-00001" summary="adding util function to upload collection to database">
       <created>1589954913554</created>
@@ -154,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590390461283</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="clearing cart when user sign out">
+      <created>1590474472451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590474472451</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +182,8 @@
     <MESSAGE value="adding redux saga" />
     <MESSAGE value="converting sign in with google to saga" />
     <MESSAGE value="checking if user is logged in" />
-    <option name="LAST_COMMIT_MESSAGE" value="checking if user is logged in" />
+    <MESSAGE value="clearing cart when user sign out" />
+    <option name="LAST_COMMIT_MESSAGE" value="clearing cart when user sign out" />
   </component>
   <component name="WindowStateProjectService">
     <state x="921" y="129" key="CommitChangelistDialog2" timestamp="1589965056681">
@@ -196,10 +199,10 @@
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590382697752" />
     <state x="326" y="98" key="SettingsEditor/0.23.1792.1061@0.23.1792.1061" timestamp="1589966736750" />
-    <state x="724" y="149" key="Vcs.Push.Dialog.v2" timestamp="1590390463189">
+    <state x="724" y="149" key="Vcs.Push.Dialog.v2" timestamp="1590474475052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="724" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590390463189" />
+    <state x="724" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590474475052" />
     <state x="1045" y="186" width="598" height="735" key="find.popup" timestamp="1589962981058">
       <screen x="0" y="23" width="1792" height="1061" />
     </state>
@@ -208,10 +211,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="811" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590387982150" />
-    <state x="832" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1590474321098">
+    <state x="833" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1590475176684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="832" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590474321098" />
+    <state x="833" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590475176684" />
     <state x="951" y="210" width="784" height="874" key="search.everywhere.popup/0.23.1792.1061@0.23.1792.1061" timestamp="1589967329667" />
   </component>
 </project>
