@@ -21,11 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="777eac56-fbae-483d-aafc-f6699e210e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.2.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,6 +95,9 @@
       <workItem from="1590207600728" duration="610000" />
       <workItem from="1590379454565" duration="11842000" />
       <workItem from="1590473220263" duration="2742000" />
+      <workItem from="1590595707948" duration="555000" />
+      <workItem from="1590652767118" duration="137000" />
+      <workItem from="1590652970230" duration="1002000" />
     </task>
     <task id="LOCAL-00001" summary="adding util function to upload collection to database">
       <created>1589954913554</created>
@@ -211,10 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="811" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590387982150" />
-    <state x="833" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1590475176684">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="951" y="210" width="784" height="874" key="search.everywhere.popup" timestamp="1590655741225">
+      <screen x="0" y="23" width="1792" height="1061" />
     </state>
     <state x="833" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590475176684" />
-    <state x="951" y="210" width="784" height="874" key="search.everywhere.popup/0.23.1792.1061@0.23.1792.1061" timestamp="1589967329667" />
+    <state x="951" y="210" width="784" height="874" key="search.everywhere.popup/0.23.1792.1061@0.23.1792.1061" timestamp="1590655741225" />
   </component>
 </project>
