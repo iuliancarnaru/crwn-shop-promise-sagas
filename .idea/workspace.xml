@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="777eac56-fbae-483d-aafc-f6699e210e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <workItem from="1590473220263" duration="2742000" />
       <workItem from="1590595707948" duration="555000" />
       <workItem from="1590652767118" duration="137000" />
-      <workItem from="1590652970230" duration="1002000" />
+      <workItem from="1590652970230" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="adding util function to upload collection to database">
       <created>1589954913554</created>
