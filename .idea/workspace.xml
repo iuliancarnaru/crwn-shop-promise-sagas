@@ -20,228 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777eac56-fbae-483d-aafc-f6699e210e94" name="Default Changelist" comment="clearing cart when user sign out">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon-react.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/crown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/shoppingcart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-dropdown/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-icon/cart-icon.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-icon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-item/cart-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-item/cart-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/cart-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/checkout-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collection-item/collection-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collection-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collection-preview/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collections-overview/collections-overview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collections-overview/collections-overview.container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collections-overview/collections-overview.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collections-overview/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/custom-button/custom-button.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/custom-button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/directory/directory.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/directory/directory.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/directory/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/form-input/form-input.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/form-input/form-input.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/form-input/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/header/header.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/header/header.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/header/header.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/menu-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/menu-item/menu-item-styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sign-in/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sign-up/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sign-up/sign-up.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/spinner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/spinner/spinner.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/spinner/spinner.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/stripe-button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/stripe-button/stripe-button.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/firebase/firebase.utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/checkout/checkout.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/checkout/checkout.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/checkout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/collection/collection.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/collection/collection.container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/collection/collection.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/collection/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/homepage/homepage.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/homepage/homepage.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/homepage/homepage.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/homepage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/shop/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/sign-in-and-sign-up/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/cart/cart.sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/cart/cart.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/cart/cart.types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/cart/cart.utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/directory/directory.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/directory/directory.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/root-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/root-saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/shop/shop.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/shop/shop.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/shop/shop.sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/shop/shop.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/shop/shop.types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/user/user.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/user/user.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/user/user.sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/user/user.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/user/user.types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/crwn-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crwn-shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/error-boundary/error-boundary.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/error-boundary/error-boundary.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/error-boundary/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon-react.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/crown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/shoppingcart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form-input/form-input.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form-input/form-input.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form-input/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item-styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/spinner.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/spinner.styles.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/stripe-button/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/stripe-button/stripe-button.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.container.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory.selectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-saga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.selectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/shop/shop.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,6 +72,23 @@
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -320,6 +121,7 @@
       <workItem from="1590652767118" duration="137000" />
       <workItem from="1590652970230" duration="9098000" />
       <workItem from="1590669319052" duration="337000" />
+      <workItem from="1591110040986" duration="3064000" />
     </task>
     <task id="LOCAL-00001" summary="adding util function to upload collection to database">
       <created>1589954913554</created>
@@ -420,6 +222,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589913799072" />
+    <state width="875" height="291" key="GridCell.Tab.0.bottom" timestamp="1591114274133">
+      <screen x="0" y="23" width="1792" height="1061" />
+    </state>
+    <state width="875" height="291" key="GridCell.Tab.0.bottom/0.23.1792.1061@0.23.1792.1061" timestamp="1591114274133" />
+    <state width="875" height="291" key="GridCell.Tab.0.center" timestamp="1591114274132">
+      <screen x="0" y="23" width="1792" height="1061" />
+    </state>
+    <state width="875" height="291" key="GridCell.Tab.0.center/0.23.1792.1061@0.23.1792.1061" timestamp="1591114274132" />
+    <state width="875" height="291" key="GridCell.Tab.0.left" timestamp="1591114274132">
+      <screen x="0" y="23" width="1792" height="1061" />
+    </state>
+    <state width="875" height="291" key="GridCell.Tab.0.left/0.23.1792.1061@0.23.1792.1061" timestamp="1591114274132" />
+    <state width="875" height="291" key="GridCell.Tab.0.right" timestamp="1591114274133">
+      <screen x="0" y="23" width="1792" height="1061" />
+    </state>
+    <state width="875" height="291" key="GridCell.Tab.0.right/0.23.1792.1061@0.23.1792.1061" timestamp="1591114274133" />
     <state x="326" y="98" key="SettingsEditor" timestamp="1590667078716">
       <screen x="0" y="23" width="1792" height="1061" />
     </state>
@@ -437,10 +255,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="811" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590387982150" />
-    <state x="951" y="210" width="784" height="874" key="search.everywhere.popup" timestamp="1590660436629">
+    <state x="951" y="210" width="784" height="874" key="search.everywhere.popup" timestamp="1591111741994">
       <screen x="0" y="23" width="1792" height="1061" />
     </state>
     <state x="833" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590475176684" />
-    <state x="951" y="210" width="784" height="874" key="search.everywhere.popup/0.23.1792.1061@0.23.1792.1061" timestamp="1590660436629" />
+    <state x="951" y="210" width="784" height="874" key="search.everywhere.popup/0.23.1792.1061@0.23.1792.1061" timestamp="1591111741994" />
   </component>
 </project>
